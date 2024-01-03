@@ -1,6 +1,5 @@
 // exercise.test.js
-const { add, subtract, multiply, divide } = require("./exercise");
-const fs = require("fs");
+import { add, subtract, multiply, divide, multiplyBig } from "./exercise";
 
 describe("add function", () => {
   test("adds 1 + 2 to equal 3", () => {
