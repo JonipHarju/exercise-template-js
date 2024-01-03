@@ -1,11 +1,9 @@
-// exercise.test.js
-import { add, subtract, multiply, divide, multiplyBig } from "./exercise";
+import { add, subtract, multiply, divide } from "./exercise.js";
 
 describe("add function", () => {
   test("adds 1 + 2 to equal 3", () => {
     expect(add(1, 2)).toBe(3);
   });
-  // Add more test cases based on your exercise requirements
 });
 
 describe("subtract function", () => {
